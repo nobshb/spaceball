@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "maze_1.data.unityweb",
+"asmCodeUrl": "maze_1.asm.code.unityweb",
+"asmMemoryUrl": "maze_1.asm.memory.unityweb",
+"asmFrameworkUrl": "maze_1.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
