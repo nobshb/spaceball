@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour {
 		// Check if our 'count' is equal to or exceeded 12
 		if (count >= 50) 
 		{
-			SceneManager.LoadScene ("EndGame", LoadSceneMode.Additive);
+			//SceneManager.LoadScene ("EndGame", LoadSceneMode.Additive);
 		}
 	}
 
