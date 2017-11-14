@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour {
 	// Create public variables for player speed, and for the Text UI game objects
 	public float speed;
 	public Text countText;
-	public Text winText;
+	//public Text winText;
 
 	// Create private references to the rigidbody component on the player, and the count of pick up objects picked up so far
 	private Rigidbody rb;
@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour {
 		SetCountText ();
 
 		// Set the text property of our Win Text UI to an empty string, making the 'You Win' (game over message) blank
-		winText.text = "";
+		//winText.text = "";
 	}
 
 	// Each physics step..
@@ -79,10 +79,9 @@ public class PlayerController : MonoBehaviour {
 		countText.text = "Count: " + count.ToString ();
 
 		// Check if our 'count' is equal to or exceeded 12
-		if (count >= 30) 
+		if (count >= 50) 
 		{
-			// Set the text value of our 'winText'
-			winText.text = "You Win!";
+			SceneManager.LoadScene ("EndGame", LoadSceneMode.Additive);
 		}
 	}
 

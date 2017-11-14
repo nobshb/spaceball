@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: caefd5d3efb88476b9c3fbf0e7081f0d
+timeCreated: 1510605995
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Atami
+  fontNames:
+  - Atami
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 56659930cc04344399f3d434ec3be46a, type: 3}
+  - {fileID: 12800000, guid: 8657b550b553840c3a4858b5418f70de, type: 3}
+  - {fileID: 12800000, guid: a543cec1e08d24a8398650d54bb69157, type: 3}
+  - {fileID: 12800000, guid: 93be1493efc094ce6a0c71d70502024a, type: 3}
+  - {fileID: 12800000, guid: 9a38848f583e24e4081f8ae21938df5d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
