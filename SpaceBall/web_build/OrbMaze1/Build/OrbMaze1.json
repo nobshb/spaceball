@@ -1,0 +1,10 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "OrbMaze1.data.unityweb",
+"asmCodeUrl": "OrbMaze1.asm.code.unityweb",
+"asmMemoryUrl": "OrbMaze1.asm.memory.unityweb",
+"asmFrameworkUrl": "OrbMaze1.asm.framework.unityweb",
+"backgroundUrl": "OrbMaze1.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}

@@ -1,0 +1,10 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="ButtonManager">
+			<method name="NewGameButton"/>
+		</type>
+		<type fullname="ButtonManagerEnd">
+			<method name="EndGameButton"/>
+		</type>
+	</assembly>
+</linker>

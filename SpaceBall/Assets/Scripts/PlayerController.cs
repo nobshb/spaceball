@@ -2,7 +2,6 @@
 
 // Include the namespace required to use Unity UI
 using UnityEngine.UI;
-
 using System.Collections;
 using UnityEngine.SceneManagement;
 
@@ -81,7 +80,7 @@ public class PlayerController : MonoBehaviour {
 		// Check if our 'count' is equal to or exceeded 12
 		if (count >= 50) 
 		{
-			//SceneManager.LoadScene ("EndGame", LoadSceneMode.Additive);
+			SceneManager.LoadScene ("EndGame");
 		}
 	}
 
